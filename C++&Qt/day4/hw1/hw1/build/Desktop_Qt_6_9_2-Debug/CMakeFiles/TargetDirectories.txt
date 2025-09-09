@@ -1,9 +1,0 @@
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/hw1.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/edit_cache.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/rebuild_cache.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/list_install_components.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/local.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/strip.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/hw1_autogen_timestamp_deps.dir
-/home/kmj/Desktop/hw1/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/hw1_autogen.dir
