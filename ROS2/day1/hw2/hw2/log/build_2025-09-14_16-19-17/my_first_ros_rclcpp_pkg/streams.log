@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[0.069s] [ 16%] [32m[1mLinking CXX executable my_cpp_node[0m
+[0.077s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.110s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.110s] (.text+0x1b): undefined reference to `main'
+[0.114s] collect2: error: ld returned 1 exit status
+[0.118s] gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:151: my_cpp_node] 오류 1
+[0.118s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/my_cpp_node.dir/all] 오류 2
+[0.118s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.254s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.254s]    23 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.254s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.254s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/publisher.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.254s]    28 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.254s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.254s] compilation terminated.
+[0.255s] compilation terminated.
+[0.259s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] 오류 1
+[0.259s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] 오류 1
+[0.259s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber.dir/all] 오류 2
+[0.259s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/publisher.dir/all] 오류 2
+[0.260s] gmake: *** [Makefile:146: all] 오류 2
+[0.263s] Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16

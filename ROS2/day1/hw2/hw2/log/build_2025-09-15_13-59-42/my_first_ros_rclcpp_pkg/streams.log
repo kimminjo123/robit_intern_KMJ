@@ -1,0 +1,86 @@
+[0.012s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.073s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.073s] [ 75%] Built target publisher
+[2.510s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:[m[K In constructor ‘[01m[KMySubscriberNode::MySubscriberNode()[m[K’:
+[2.510s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:38:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KInt32[m[K’?
+[2.510s]    38 |         int_subscription_ = this->create_subscription<std_msgs::msg::[01;31m[Kint32[m[K>(
+[2.510s]       |                                                                      [01;31m[K^~~~~[m[K
+[2.510s]       |                                                                      [32m[KInt32[m[K
+[2.510s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:38:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMySubscriberNode::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (MySubscriberNode::*)(std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >), MySubscriberNode*, const std::_Placeholder<1>&>::type)[m[K’
+[2.510s]    38 |         int_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::int32>([m[K
+[2.510s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.511s]    39 | [01;31m[K            "topicname2", 10,[m[K
+[2.511s]       |             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                               
+[2.511s]    40 | [01;31m[K            std::bind(&MySubscriberNode::topic_callback, this, std::placeholders::_1)[m[K
+[2.511s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.511s]    41 | [01;31m[K        )[m[K;
+[2.511s]       |         [01;31m[K~[m[K                                                                   
+[2.519s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.519s]                  from [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:22[m[K:
+[2.519s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.520s]    92 | [01;36m[KNode[m[K::create_subscription(
+[2.520s]       | [01;36m[K^~~~[m[K
+[2.520s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.520s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:38:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.520s]    38 |         int_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::int32>([m[K
+[2.520s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.520s]    39 | [01;31m[K            "topicname2", 10,[m[K
+[2.520s]       |             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                               
+[2.520s]    40 | [01;31m[K            std::bind(&MySubscriberNode::topic_callback, this, std::placeholders::_1)[m[K
+[2.520s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.520s]    41 | [01;31m[K        )[m[K;
+[2.520s]       |         [01;31m[K~[m[K                                                                   
+[2.520s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:43:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+[2.520s]    43 |         float_subscription_ = this->create_subscription<std_msgs::msg::[01;31m[Kfloat32[m[K>(
+[2.520s]       |                                                                        [01;31m[K^~~~~~~[m[K
+[2.520s]       |                                                                        [32m[KFloat32[m[K
+[2.520s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:43:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMySubscriberNode::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (MySubscriberNode::*)(std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >), MySubscriberNode*, const std::_Placeholder<1>&>::type)[m[K’
+[2.520s]    43 |         float_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::float32>([m[K
+[2.520s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.520s]    44 | [01;31m[K            "topicname3", 10,[m[K
+[2.520s]       |             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                   
+[2.520s]    45 | [01;31m[K            std::bind(&MySubscriberNode::topic_callback, this, std::placeholders::_1)[m[K
+[2.520s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.520s]    46 | [01;31m[K        )[m[K;
+[2.520s]       |         [01;31m[K~[m[K                                                                       
+[2.520s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.520s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.521s]                  from [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:22[m[K:
+[2.521s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.521s]    92 | [01;36m[KNode[m[K::create_subscription(
+[2.521s]       | [01;36m[K^~~~[m[K
+[2.521s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.521s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:43:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.521s]    43 |         float_subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::float32>([m[K
+[2.521s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.521s]    44 | [01;31m[K            "topicname3", 10,[m[K
+[2.521s]       |             [01;31m[K~~~~~~~~~~~~~~~~~[m[K                                                   
+[2.521s]    45 | [01;31m[K            std::bind(&MySubscriberNode::topic_callback, this, std::placeholders::_1)[m[K
+[2.521s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.521s]    46 | [01;31m[K        )[m[K;
+[2.521s]       |         [01;31m[K~[m[K                                                                       
+[2.524s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.525s]                  from [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:22[m[K:
+[2.525s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid MySubscriberNode::float_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.525s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:60:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.525s]    60 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Received message: 'f'"[m[K, msg->data);
+[2.525s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.230s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] 오류 1
+[4.230s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscriber.dir/all] 오류 2
+[4.230s] gmake: *** [Makefile:146: all] 오류 2
+[4.232s] Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16

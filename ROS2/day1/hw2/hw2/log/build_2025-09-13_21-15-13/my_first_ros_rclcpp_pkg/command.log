@@ -1,0 +1,2 @@
+Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16

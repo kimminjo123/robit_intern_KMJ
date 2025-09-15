@@ -1,0 +1,11 @@
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/my_first_ros_rclcpp_pkg_uninstall.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/publisher.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/subscriber.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/test.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/edit_cache.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/list_install_components.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/install.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/local.dir
+/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg/CMakeFiles/install/strip.dir

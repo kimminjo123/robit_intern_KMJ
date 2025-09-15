@@ -1,0 +1,25 @@
+[0.357s] Invoking command in '/home/kmj/Desktop/hw2/src/my_first_ros_rclpy_pkg': PYTHONPATH=/home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_ros_rclpy_pkg build --build-base /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/build install --record /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/install.log --single-version-externally-managed install_data
+[0.492s] running egg_info
+[0.492s] writing ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/entry_points.txt
+[0.493s] writing requirements to ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/requires.txt
+[0.493s] writing top-level names to ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/top_level.txt
+[0.494s] reading manifest file '../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[0.495s] writing manifest file '../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[0.495s] running build
+[0.495s] running build_py
+[0.495s] copying my_first_ros_rclpy_pkg/publisher.py -> /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/build/lib/my_first_ros_rclpy_pkg
+[0.495s] running install
+[0.495s] running install_lib
+[0.496s] copying /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/build/lib/my_first_ros_rclpy_pkg/publisher.py -> /home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages/my_first_ros_rclpy_pkg
+[0.497s] byte-compiling /home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages/my_first_ros_rclpy_pkg/publisher.py to publisher.cpython-310.pyc
+[0.497s] running install_data
+[0.497s] running install_egg_info
+[0.498s] removing '/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages/my_first_ros_rclpy_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.499s] Copying ../../build/my_first_ros_rclpy_pkg/my_first_ros_rclpy_pkg.egg-info to /home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages/my_first_ros_rclpy_pkg-0.0.0-py3.10.egg-info
+[0.499s] running install_scripts
+[0.514s] Installing hw2 script to /home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[0.514s] Installing hw2_2 script to /home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/my_first_ros_rclpy_pkg
+[0.515s] writing list of installed files to '/home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/install.log'
+[0.532s] Invoked command in '/home/kmj/Desktop/hw2/src/my_first_ros_rclpy_pkg' returned '0': PYTHONPATH=/home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmj/Desktop/hw2/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_ros_rclpy_pkg build --build-base /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/build install --record /home/kmj/Desktop/hw2/build/my_first_ros_rclpy_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': /usr/bin/cmake /home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg
+Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '1': /usr/bin/cmake /home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg

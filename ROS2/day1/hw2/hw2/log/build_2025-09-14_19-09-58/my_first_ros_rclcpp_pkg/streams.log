@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[0.063s] [ 75%] Built target subscriber
+[0.233s] [01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/publisher.cpp:28:93:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[0.233s]    28 | /string.hpp"                                                          [01;35m[K#[m[K메시지 타입 정의
+[0.233s]       |                                                                       [01;35m[K^[m[K
+[0.233s] 
+[3.125s] [100%] [32m[1mLinking CXX executable publisher[0m
+[3.254s] [100%] Built target publisher
+[3.263s] Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[3.272s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg
+[3.277s] -- Install configuration: ""
+[3.277s] -- Installing: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/publisher
+[3.279s] -- Set runtime path of "/home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/publisher" to ""
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/subscriber
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[3.279s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+[3.280s] -- Installing: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+[3.280s] -- Up-to-date: /home/kmj/Desktop/hw2/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml
+[3.281s] Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg

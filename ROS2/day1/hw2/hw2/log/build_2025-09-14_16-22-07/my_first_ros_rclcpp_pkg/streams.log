@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.201s] [ 50%] Building CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o
+[0.201s] [ 50%] Building CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o
+[0.201s] [ 50%] Linking CXX executable my_cpp_node
+[0.201s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.201s] (.text+0x1b): undefined reference to `main'
+[0.202s] collect2: error: ld returned 1 exit status
+[0.202s] gmake[2]: *** [CMakeFiles/my_cpp_node.dir/build.make:151: my_cpp_node] 오류 1
+[0.202s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/my_cpp_node.dir/all] 오류 2
+[0.202s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.245s] /home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/subscriber.cpp:23:10: fatal error: std_msgs/msg/string.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.245s]    23 | #include "std_msgs/msg/string.hpp"
+[0.245s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.245s] compilation terminated.
+[0.245s] /home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/publisher.cpp:28:10: fatal error: std_msgs/msg/string.hpp: 그런 파일이나 디렉터리가 없습니다
+[0.245s]    28 | #include "std_msgs/msg/string.hpp"
+[0.245s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.245s] compilation terminated.
+[0.248s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:76: CMakeFiles/subscriber.dir/src/subscriber.cpp.o] 오류 1
+[0.248s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/subscriber.dir/all] 오류 2
+[0.248s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:76: CMakeFiles/publisher.dir/src/publisher.cpp.o] 오류 1
+[0.249s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/publisher.dir/all] 오류 2
+[0.249s] gmake: *** [Makefile:146: all] 오류 2
+[0.251s] Invoked command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16

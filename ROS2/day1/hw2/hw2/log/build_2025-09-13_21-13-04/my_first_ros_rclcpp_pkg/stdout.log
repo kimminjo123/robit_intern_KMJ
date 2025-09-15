@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target my_cpp_node[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 16%] [32m[1mLinking CXX executable my_cpp_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m

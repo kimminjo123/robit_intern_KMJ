@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[ 75%] [32m[1mLinking CXX executable publisher[0m
+[ 75%] Built target my_cpp_node
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/publisher.dir/build.make:151: publisher] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

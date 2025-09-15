@@ -1,0 +1,4 @@
+[01m[K/home/kmj/Desktop/hw2/src/my_first_ros_rclcpp_pkg/src/publisher.cpp:28:93:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+   28 | /string.hpp"                                                          [01;35m[K#[m[K메시지 타입 정의
+      |                                                                       [01;35m[K^[m[K
+

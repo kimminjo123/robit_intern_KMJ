@@ -1,0 +1,4 @@
+[0.014s] Invoking command in '/home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw2/build/my_first_ros_rclcpp_pkg -- -j16 -l16
+[0.076s] [ 66%] Built target subscriber
+[0.076s] [ 66%] Built target my_cpp_node
+[0.076s] [100%] Built target publisher
