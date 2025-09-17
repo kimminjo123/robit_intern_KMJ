@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+[0.066s] [100%] Built target lifecycle_talker
+[0.066s] [100%] Built target lifecycle_listener
+[0.066s] [100%] Built target lifecycle_service_client
+[0.078s] Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+[0.087s] Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle
+[0.093s] -- Install configuration: ""
+[0.093s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_talker
+[0.093s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_listener
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_service_client
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle//launch
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle//launch/lifecycle_demo.launch.py
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/package_run_dependencies/lifecycle
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/parent_prefix_path/lifecycle
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/path.sh
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/path.dsv
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.bash
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.sh
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.zsh
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.dsv
+[0.095s] -- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/package.dsv
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/packages/lifecycle
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/cmake/lifecycleConfig.cmake
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/cmake/lifecycleConfig-version.cmake
+[0.095s] -- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/package.xml
+[0.096s] Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle

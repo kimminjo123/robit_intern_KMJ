@@ -1,0 +1,6 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_talker.dir/src/lifecycle_talker.cpp.o[0m
+[ 83%] Built target lifecycle_listener
+[ 83%] Built target lifecycle_service_client
+[ 83%] [32m[1mLinking CXX executable lifecycle_talker[0m
+[100%] Built target lifecycle_talker
+-- Install configuration: ""

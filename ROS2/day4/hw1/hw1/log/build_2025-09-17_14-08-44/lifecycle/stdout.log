@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_talker[0m
+[ 66%] Built target lifecycle_listener
+[ 66%] Built target lifecycle_service_client
+[ 83%] [32m[1mLinking CXX executable lifecycle_talker[0m

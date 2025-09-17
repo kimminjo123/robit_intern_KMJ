@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_service_client[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_talker[0m
+[100%] Built target lifecycle_listener
+[100%] Built target lifecycle_talker
+[100%] Built target lifecycle_service_client
+-- Install configuration: ""
+-- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_talker
+-- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_listener
+-- Up-to-date: /home/kmj/Desktop/hw1/install/lifecycle/lib/lifecycle/lifecycle_service_client
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle//launch
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle//launch/lifecycle_demo.launch.py
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/package_run_dependencies/lifecycle
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/parent_prefix_path/lifecycle
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/ament_prefix_path.sh
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/ament_prefix_path.dsv
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/path.sh
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/environment/path.dsv
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.bash
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.sh
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.zsh
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/local_setup.dsv
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/package.dsv
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/ament_index/resource_index/packages/lifecycle
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/cmake/lifecycleConfig.cmake
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/cmake/lifecycleConfig-version.cmake
+-- Installing: /home/kmj/Desktop/hw1/install/lifecycle/share/lifecycle/package.xml

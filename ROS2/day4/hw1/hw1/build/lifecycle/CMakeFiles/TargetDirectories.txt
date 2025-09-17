@@ -1,0 +1,12 @@
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/uninstall.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/lifecycle_uninstall.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/lifecycle_talker.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/lifecycle_listener.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/lifecycle_service_client.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/test.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/edit_cache.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/rebuild_cache.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/list_install_components.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/install.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/install/local.dir
+/home/kmj/Desktop/hw1/build/lifecycle/CMakeFiles/install/strip.dir

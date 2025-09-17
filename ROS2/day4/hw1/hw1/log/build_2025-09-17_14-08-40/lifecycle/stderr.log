@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:52 (file):
+  file INSTALL cannot find
+  "/home/kmj/Desktop/hw1/build/lifecycle/lifecycle_talker": No such file or
+  directory.
+
+[0m

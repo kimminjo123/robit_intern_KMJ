@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e8d560f99d0f70a5627d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lifecycle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_listener-3aa9a5279be10be9a468.json",
+					"name" : "lifecycle_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_service_client-d669ed8ce9cd8ea1fd46.json",
+					"name" : "lifecycle_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_talker-c5e593909c04d132f6b4.json",
+					"name" : "lifecycle_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_uninstall-e5e4b29310c7051ec9b0.json",
+					"name" : "lifecycle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d936d23a2752b1ccfadf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kmj/Desktop/hw1/build/lifecycle",
+		"source" : "/home/kmj/Desktop/hw1/src/lifecycle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle
+Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle

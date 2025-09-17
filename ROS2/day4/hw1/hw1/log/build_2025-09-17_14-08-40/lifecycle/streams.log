@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+[0.083s] [ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_talker.dir/src/lifecycle_talker.cpp.o[0m
+[0.083s] [ 83%] Built target lifecycle_listener
+[0.083s] [ 83%] Built target lifecycle_service_client
+[4.294s] [ 83%] [32m[1mLinking CXX executable lifecycle_talker[0m
+[4.450s] [100%] Built target lifecycle_talker
+[4.460s] Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kmj/Desktop/hw1/build/lifecycle -- -j16 -l16
+[4.469s] Invoking command in '/home/kmj/Desktop/hw1/build/lifecycle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle
+[4.475s] -- Install configuration: ""
+[4.475s] [31mCMake Error at cmake_install.cmake:52 (file):
+[4.475s]   file INSTALL cannot find
+[4.475s]   "/home/kmj/Desktop/hw1/build/lifecycle/lifecycle_talker": No such file or
+[4.475s]   directory.
+[4.475s] 
+[4.475s] [0m
+[4.476s] Invoked command in '/home/kmj/Desktop/hw1/build/lifecycle' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kmj/Desktop/hw1/build/lifecycle
